@@ -25,7 +25,7 @@ This script allows you to map values from a given dictionary to a new dictionary
 This script requires Python 3.x to be installed.
 
 # Installation
-Clone the repository to your local machine using git clone https://github.com/your_username/your_repository.git
+Clone the repository to your local machine using git clone https://github.com/Hamara-Jillo/Dictionary-Mapper/
 Navigate to the root directory of the project.
 Install the required dependencies using pip install -r requirements.txt
 #Usage
