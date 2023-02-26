@@ -63,36 +63,19 @@ input_dict = {
     ]
 }
 
-mappings = {
+maps = {
     "user.name": "user.full_name",
-    "user.address.street": "address",
-    "products.*.name": "products.*.product_name",
-    "products.*.price": "products.*.product_price"
+    "user.address.street": "address.street",
 }
 
-paths = ["user.address.street", "products.*.name"]
+pths = [["user.name" ],["user.address.street"]]
 
 mapper = Mapper(input_dict, mappings, paths)
 output_dict = mapper.map()
 
 print(output_dict)
 # Output:
-{
-    "user": {
-        "full_name": "John",
-        "address": "123 Main St"
-    },
-    "products": [
-        {
-            "product_name": "Product 1",
-            "product_price": 10.99
-        },
-        {
-            "product_name": "Product 2",
-            "product_price": 5.99
-        }
-    ]
-}
+{'user': {'full_name': 'John'}, 'address': {'street': '123 Main St'}}
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
