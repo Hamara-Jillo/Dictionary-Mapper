@@ -1,5 +1,5 @@
 # Dictionary-Mapper
-"Dictionary Mapper" that allows users to create a new dictionary by copying values from the initial dictionary based on specific paths and mappings provided as input. This project will be published on GitHub, a web-based platform for version control and collaboration that allows developers to work on the same codebase.
+"Dictionary Mapper" that allows users to create a new dictionary by copying values from the initial dictionary based on specific paths and mappings provided as input. 
 # Project Description:
 The "Dictionary Mapper" project will include a Python script that takes an initial dictionary, a list of paths, and a dictionary of mappings as inputs, and generates a new dictionary based on the specified paths and mappings. The script will be designed to handle any type of key or list and generate a new dictionary of nested dictionaries and lists.
 
