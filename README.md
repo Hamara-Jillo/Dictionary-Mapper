@@ -37,7 +37,7 @@ paths: A list of paths to search for in the input dictionary, where * can be use
 To use the Mapper class, create an instance with the required parameters and call the map() method. This will return a new dictionary with the mapped values.
 
 # Example usage:
-from map import Mapper
+import Mapper
 
 input_dict = {
     "user": {
